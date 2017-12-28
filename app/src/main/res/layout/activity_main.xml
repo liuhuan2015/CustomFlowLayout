@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E6F6"
+    android:orientation="vertical"
+    tools:context="com.liuh.customflowlayout.MainActivity">
+
+    <com.liuh.customflowlayout.CustomFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Welcome" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="吃饭睡觉打豆豆" />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="学习ing" />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="恋爱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力,奋斗" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I think I can !" />
+
+    </com.liuh.customflowlayout.CustomFlowLayout>
+
+</LinearLayout>
